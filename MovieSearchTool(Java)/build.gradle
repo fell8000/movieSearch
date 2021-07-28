@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.jinseong.soft.movie.Application'
+def jarName = 'MOVIE-SEARCH-TOOL'
+
+group 'com.jinseong.soft'
+version ''
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.18'
+}
