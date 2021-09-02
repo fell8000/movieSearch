@@ -1,6 +1,6 @@
 # movieSearch
 
-with Java, Python, MYSQL, DataBase with Movielens
+with Java, Python, MYSQL, DataBase with Movielens with CSV
 
 JAVA에서 특정 조건들을 가지고 PYTHON으로 SQL 서버에 업로딩한 데이터들을 검색하는 리뷰 검색 엔진.
 
